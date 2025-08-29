@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/*.json
+keys/
+secrets/
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Blockchain / Database
+chain_data/
+blockchain_data/
+ledger/
+database.sqlite
+*.db
+*.sqlite
+*.rdb
+dump.rdb
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.cache/
+.temp/
+tmp/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup & misc
+*.bak
+*.old
+*.orig
+
+# Docker
+docker-compose.override.yml
+*.dockerfile-local
+.docker/
+.docx
